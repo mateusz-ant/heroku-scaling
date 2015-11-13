@@ -1,0 +1,12 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Mandelbrot set</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+</head>
+
+<body>
+<img th:alt="'Mandelbrot set: ('+${left}+', '+${top}+'i) to ('+${right}+', '+${bottom}+'i). Resolution: '+${width}+'x'+${height}+'. Iterations: '+${precision}"
+     th:src="'data:image/png;base64,'+${renderedImage}"/>
+</body>
+</html>
