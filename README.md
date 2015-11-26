@@ -10,5 +10,8 @@ AGH University of Science and Technology
 3. mvn spring-boot:run
 4. localhost:8080/mandelbrot
 
+# Deploying application on heroku
+https://devcenter.heroku.com/articles/deploying-spring-boot-apps-to-heroku
+
 # Running instances of application
 https://heroku-scaling.herokuapp.com/mandelbrot
