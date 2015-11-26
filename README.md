@@ -9,3 +9,6 @@ AGH University of Science and Technology
 2. cd repository root
 3. mvn spring-boot:run
 4. localhost:8080/mandelbrot
+
+# Running instances of application
+https://heroku-scaling.herokuapp.com/mandelbrot
